@@ -56,6 +56,10 @@ body {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
+.nav-link:focus,
+.nav-link:hover {
+  color: var(--accent-color);
+}
 
 .mail-link {
   color: var(--accent-color);
@@ -236,11 +240,16 @@ body {
 
 /* Portfolio */
 .nav-list-portfolio {
-  background: #f5f4fa;
+  background-color: #f5f4fa;
   height: 38px;
   border-radius: 4px;
   text-align: center;
 }
+.nav-list-portfolio:focus,
+.nav-list-portfolio:hover {
+  background-color: var(--accent-color);
+}
+
 .one {
   width: 73px;
 }
@@ -266,9 +275,11 @@ body {
   line-height: 26px;
   letter-spacing: 0.03em;
 }
-/* .portfolio-main-bg {
-  background-color: #f5f5f5;
-} */
+.nav-link-portfolio:focus,
+.nav-link-portfolio:hover {
+  color: var(--second-accent-color);
+}
+
 .exsamples-list {
   box-sizing: border-box;
   width: 370px;
