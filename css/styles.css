@@ -1,0 +1,296 @@
+/* main, footer bg #2F303A */
+/* header, foto bg #FFFFFF */
+/* section first bg #F5F5F5 */
+/* section second bg #F5F4FA */
+
+/* accent color #2196F3 */
+/* second accent color #FFFFFF */
+/* h color #212121 */
+/* p color #757575 */
+/* logo color #000000 */
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+:root {
+  --bg-color-main: #2f303a;
+  --accent-color: #2196f3;
+  --second-accent-color: #ffffff;
+  --header-color: #212121;
+  --paragraph-color: #757575;
+
+  --font-family: 'Roboto';
+  --font-weight-nav: 500;
+  --font-weight-header: 700;
+  --font-weight-main-header: 900;
+  --font-weight-paragraph: 400;
+}
+
+/* Header */
+.bg-header {
+  background-color: var(--second-accent-color);
+}
+.logo {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.logo-part {
+  color: #000000;
+}
+.link {
+  /* убрать оформление списка */
+  list-style-type: none;
+}
+.nav-link {
+  color: var(--header-color);
+  text-decoration: none;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-nav);
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.mail-link {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: var(--font-weight-nav);
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.tel-link {
+  color: var(--paragraph-color);
+  text-decoration: none;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: var(--font-weight-nav);
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--bg-color-main);
+  height: 252px;
+}
+.logo-part-ft {
+  color: var(--second-accent-color);
+}
+
+.adress-link-ft {
+  color: var(--second-accent-color);
+  text-decoration: none;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+.mail-link-ft {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.tel-link-ft {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+/* hero */
+.bg-hero {
+  height: 600px;
+  background-color: var(--bg-color-main);
+  opacity: 0.8;
+}
+.header-hero {
+  color: var(--second-accent-color);
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: var(--font-weight-main-header);
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  width: 696px;
+}
+.header-second {
+  color: var(--header-color);
+  font-size: var(--font-weight-header);
+}
+.button-service {
+  color: var(--second-accent-color);
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: var(--font-weight-header);
+  font-size: 16px;
+  letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+  width: 216px;
+  height: 50px;
+}
+/* About */
+.about {
+  background-color: #f5f5f5;
+}
+
+.header-second {
+  color: var(--header-color);
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: var(--font-weight-header);
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.header-about {
+  color: var(--header-color);
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: var(--font-weight-header);
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.header-about-paragraph {
+  color: var(--paragraph-color);
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: var(--font-weight-paragraph);
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+.header-about-list {
+  width: 270px;
+  height: 98px;
+}
+
+/* About work */
+
+.header-about-work-list {
+  width: 370px;
+  height: 294px;
+}
+
+/* Our-team */
+
+.our-team {
+  background-color: #f5f4fa;
+}
+.our-team-list {
+  background: var(--second-accent-color);
+  width: 270px;
+  height: 368px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.our-team-name {
+  color: var(--header-color);
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: var(--font-weight-nav);
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.our-team-paragraph {
+  color: var(--paragraph-color);
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: var(--font-weight-paragraph);
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Portfolio */
+.nav-list-portfolio {
+  background: #f5f4fa;
+  height: 38px;
+  border-radius: 4px;
+  text-align: center;
+}
+.one {
+  width: 73px;
+}
+.second {
+  width: 125px;
+}
+.third {
+  width: 112px;
+}
+.fourth {
+  width: 103px;
+}
+.fifth {
+  width: 130px;
+}
+.nav-link-portfolio {
+  color: var(--header-color);
+  text-decoration: none;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: var(--font-weight-nav);
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+}
+/* .portfolio-main-bg {
+  background-color: #f5f5f5;
+} */
+.exsamples-list {
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+  background-color: var(--second-accent-color);
+  border: 1px solid #eeeeee;
+}
+.exsamples-header {
+  color: var(--header-color);
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: var(--font-weight-header);
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+.exsamples-paragraph {
+  color: var(--paragraph-color);
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: var(--font-weight-paragraph);
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+}
