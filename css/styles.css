@@ -119,10 +119,13 @@ body {
   line-height: 1.714;
   letter-spacing: 0.03em;
 }
-.adress-link-ft:focus, .adress-link-ft:hover,
-.mail-link-ft:focus, .mail-link-ft:hover,
-.tel-link-ft:focus, .tel-link-ft:hover{
-    color:var(--accent-color);
+.adress-link-ft:focus,
+.adress-link-ft:hover,
+.mail-link-ft:focus,
+.mail-link-ft:hover,
+.tel-link-ft:focus,
+.tel-link-ft:hover {
+  color: var(--accent-color);
 }
 
 /* hero */
