@@ -73,6 +73,9 @@ body {
 .mail-link:hover {
   color: var(--paragraph-color);
 }
+.current-page >a {
+    color: var(--accent-color);
+}
 /* Footer */
 .footer {
   background-color: var(--bg-color-main);
