@@ -269,7 +269,7 @@ body {
 .exsamples-list {
   background-color: var(--second-accent-color);
   box-sizing: border-box;
-  width: 370px;
+    width: 370px;
   height: 404px;
   border: 1px solid #eeeeee;
 }
@@ -277,6 +277,7 @@ body {
   color: var(--header-color);
   font-weight: var(--font-weight-header);
   font-size: 18px;
+  
   line-height: 2;
   letter-spacing: 0.06em;
 }
@@ -284,6 +285,10 @@ body {
   color: var(--paragraph-color);
   font-weight: var(--font-weight-paragraph);
   font-size: var(--font-size-header);
+  
   line-height: 1.875;
   letter-spacing: 0.03em;
+}
+.decoration{
+    text-decoration: none; 
 }
